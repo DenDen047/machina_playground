@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:nightly-runtime-cuda10.0-cudnn7
+FROM pytorch/pytorch:nightly-runtime-cuda9.2-cudnn7
 
 COPY requirements.txt /opt/app/requirements.txt
 WORKDIR /opt/app
