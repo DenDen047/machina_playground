@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM pytorch/pytorch:latest
 
 COPY requirements.txt /opt/app/requirements.txt
 WORKDIR /opt/app
