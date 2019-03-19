@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: denden047/machina:latest
+    runtime: nvidia
     volumes:
       - type: bind
         source: ../src
